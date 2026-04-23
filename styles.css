@@ -39,6 +39,8 @@ img {
   display: block;
   width: 100%;
   height: auto;
+  transition-property: filter;
+  transition-duration: 500ms;
 }
 
 article {
@@ -56,6 +58,8 @@ a:link, a:visited {
   color: black;
   text-decoration: none;
   text-transform: uppercase;
+  transition-property: color;
+  transition-duration: 500ms;
 }
 
 h1 > a:link, h1 > a:visited {
